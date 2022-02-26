@@ -2,9 +2,9 @@
 from bs4 import BeautifulSoup
 import requests
 
-#criar variavel de url
-from pyflakes.checker import counter
 
+from pyflakes.checker import counter
+#criar variavel de url
 url = "https://secalerts.co/cve-list"
 # ver como funciona requição com user-agent
 # headers = {"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"}
